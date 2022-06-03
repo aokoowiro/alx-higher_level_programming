@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-def uppercase(str):
-    for i in str:
-        if (ord(i) >= 97 and ord(i) <= 122):
-            print("{}".format(chr(ord(i) - 32)), end="")
-        else:
-            ord(i)
-    print()
+str = "Python is an interpreted, interactive, object-oriented programming\
+ language that combines remarkable power with very clear syntax"
+str = str[39:66] + str[106:112] + str[:6]
+print(str)
