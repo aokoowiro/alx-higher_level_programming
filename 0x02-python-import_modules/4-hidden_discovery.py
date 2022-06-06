@@ -1,12 +1,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-import hidden_4
-import sys
-index = 0
-listed = (dir(hidden_4))
-listlen = len(listed)
-for elements in listed:
-if elements[0] == '_':
-continue
-else:
-print(elements)
+    from hidden_4 import *
+    arr = dir()
+    for i in range(0, len(arr)):
+        if arr[i][0:2] != "__":
+            print("{}".format(arr[i]))
