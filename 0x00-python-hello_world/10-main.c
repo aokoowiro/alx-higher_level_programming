@@ -5,7 +5,7 @@
 
 /**
  * main - check the code
- *
+ * @check_cycle
  * Return: Always 0.
  */
 int main(void)
